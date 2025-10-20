@@ -1,0 +1,245 @@
+[
+  {
+    "id": 1,
+    "title": "ContractFuzzer: Fuzzing Smart Contracts for Vulnerability Detection",
+    "authors": [
+      "Bo Jiang",
+      "Ye Liu",
+      "W. K. Chan"
+    ],
+    "abstract": "Decentralized cryptocurrencies feature the use of blockchain to transfer values among peers on networks without central agency. Smart contracts are programs running on top of the blockchain consensus protocol to enable people make agreements while minimizing trusts. Millions of smart contracts have been deployed in various decentralized applications. The security vulnerabilities within those smart contracts pose significant threats to their applications. Indeed, many critical security vulnerabilities within smart contracts on Ethereum platform have caused huge financial losses to their users. In this work, we present ContractFuzzer, a novel fuzzer to test Ethereum smart contracts for security vulnerabilities. ContractFuzzer generates fuzzing inputs based on the ABI specifications of smart contracts, defines test oracles to detect security vulnerabilities, instruments the EVM to log smart contracts runtime behaviors, and analyzes these logs to report security vulnerabilities. Our fuzzing of 6991 smart contracts has flagged more than 459 vulnerabilities with high precision. In particular, our fuzzing tool successfully detects the vulnerability of the DAO contract that leads to USD 60 million loss and the vulnerabilities of Parity Wallet that have led to the loss of $30 million and the freezing of USD 150 million worth of Ether.",
+    "published_date": "2018-07-11",
+    "arxiv_url": "http://arxiv.org/abs/1807.03932v2",
+    "categories": [
+      "cs.SE",
+      "cs.CR"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Reentrancy Vulnerability Identification in Ethereum Smart Contracts",
+    "authors": [
+      "Noama Fatima Samreen",
+      "Manar H. Alalfi"
+    ],
+    "abstract": "Ethereum Smart contracts use blockchain to transfer values among peers on networks without central agency. These programs are deployed on decentralized applications running on top of the blockchain consensus protocol to enable people to make agreements in a transparent and conflict-free environment. The security vulnerabilities within those smart contracts are a potential threat to the applications and have caused huge financial losses to their users. In this paper, we present a framework that combines static and dynamic analysis to detect Reentrancy vulnerabilities in Ethereum smart contracts. This framework generates an attacker contract based on the ABI specifications of smart contracts under test and analyzes the contract interaction to precisely report Reentrancy vulnerability. We conducted a preliminary evaluation of our proposed framework on 5 modified smart contracts from Etherscan and our framework was able to detect the Reentrancy vulnerability in all our modified contracts. Our framework analyzes smart contracts statically to identify potentially vulnerable functions and then uses dynamic analysis to precisely confirm Reentrancy vulnerability, thus achieving increased performance and reduced false positives.",
+    "published_date": "2021-05-06",
+    "arxiv_url": "http://arxiv.org/abs/2105.02881v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Unveiling the Landscape of Smart Contract Vulnerabilities: A Detailed   Examination and Codification of Vulnerabilities in Prominent Blockchains",
+    "authors": [
+      "Oualid Zaazaa",
+      "Hanan El Bakkali"
+    ],
+    "abstract": "With the rise in using immature smart contract programming languages to build a decentralized application, more vulnerabilities have been introduced to the Blockchain and were the main reasons behind critical financial losses. Moreover, the immutability of Blockchain technology makes deployed smart contracts unfixable for the whole life of the Blockchain itself. The lack of complete and up-to-date resources that explain those vulnerabilities in detail has also contributed to increasing the number of vulnerabilities in Blockchain. In addition, the lack of a standardized nomination of the existing vulnerabilities has made redundant research and made developers more confused. Therefore, in this paper, we propose the most complete list of smart contract vulnerabilities that exist in the most popular Blockchains with a detailed explanation of each one of them. In addition, we propose a new codification system that facilitates the communication of those vulnerabilities between developers and researchers. This codification, help identify the most uncovered vulnerabilities to focus on in future research. Moreover, the discussed list of vulnerabilities covers multiple Blockchain and could be used for even future built Blockchains.",
+    "published_date": "2023-12-01",
+    "arxiv_url": "http://arxiv.org/abs/2312.00499v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Vulnerability Analysis of Smart Contracts",
+    "authors": [
+      "S. Vani",
+      "M. Doshi",
+      "A. Nanavati",
+      "A. Kundu"
+    ],
+    "abstract": "Blockchain platforms and smart contracts are vulnerable to security breaches. Security breaches of smart contracts have led to huge financial losses in terms of cryptocurrencies and tokens. In this paper, we present a systematic survey of vulnerability analysis of smart contracts. We begin by providing a brief about the major types of attacks and vulnerabilities that are present in smart contracts. Then we discuss existing frameworks, methods and technologies used for vulnerability detection. We summarise our findings in a table which lists each framework and the attacks it protects against.",
+    "published_date": "2022-12-14",
+    "arxiv_url": "http://arxiv.org/abs/2212.07387v2",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Graph Neural Networks Enhanced Smart Contract Vulnerability Detection of   Educational Blockchain",
+    "authors": [
+      "Zhifeng Wang",
+      "Wanxuan Wu",
+      "Chunyan Zeng",
+      "Jialong Yao",
+      "Yang Yang",
+      "Hongmin Xu"
+    ],
+    "abstract": "With the development of blockchain technology, more and more attention has been paid to the intersection of blockchain and education, and various educational evaluation systems and E-learning systems are developed based on blockchain technology. Among them, Ethereum smart contract is favored by developers for its ``event-triggered\" mechanism for building education intelligent trading systems and intelligent learning platforms. However, due to the immutability of blockchain, published smart contracts cannot be modified, so problematic contracts cannot be fixed by modifying the code in the educational blockchain. In recent years, security incidents due to smart contract vulnerabilities have caused huge property losses, so the detection of smart contract vulnerabilities in educational blockchain has become a great challenge. To solve this problem, this paper proposes a graph neural network (GNN) based vulnerability detection for smart contracts in educational blockchains. Firstly, the bytecodes are decompiled to get the opcode. Secondly, the basic blocks are divided, and the edges between the basic blocks according to the opcode execution logic are added. Then, the control flow graphs (CFG) are built. Finally, we designed a GNN-based model for vulnerability detection. The experimental results show that the proposed method is effective for the vulnerability detection of smart contracts. Compared with the traditional approaches, it can get good results with fewer layers of the GCN model, which shows that the contract bytecode and GCN model are efficient in vulnerability detection.",
+    "published_date": "2023-03-08",
+    "arxiv_url": "http://arxiv.org/abs/2303.04477v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Dual-view Aware Smart Contract Vulnerability Detection for Ethereum",
+    "authors": [
+      "Jiacheng Yao",
+      "Maolin Wang",
+      "Wanqi Chen",
+      "Chengxiang Jin",
+      "Jiajun Zhou",
+      "Shanqing Yu",
+      "Qi Xuan"
+    ],
+    "abstract": "The wide application of Ethereum technology has brought technological innovation to traditional industries. As one of Ethereum's core applications, smart contracts utilize diverse contract codes to meet various functional needs and have gained widespread use. However, the non-tamperability of smart contracts, coupled with vulnerabilities caused by natural flaws or human errors, has brought unprecedented challenges to blockchain security. Therefore, in order to ensure the healthy development of blockchain technology and the stability of the blockchain community, it is particularly important to study the vulnerability detection techniques for smart contracts. In this paper, we propose a Dual-view Aware Smart Contract Vulnerability Detection Framework named DVDet. The framework initially converts the source code and bytecode of smart contracts into weighted graphs and control flow sequences, capturing potential risk features from these two perspectives and integrating them for analysis, ultimately achieving effective contract vulnerability detection. Comprehensive experiments on the Ethereum dataset show that our method outperforms others in detecting vulnerabilities.",
+    "published_date": "2024-06-29",
+    "arxiv_url": "http://arxiv.org/abs/2407.00336v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "HFContractFuzzer: Fuzzing Hyperledger Fabric Smart Contracts for   Vulnerability Detection",
+    "authors": [
+      "Mengjie Ding",
+      "Peiru Li",
+      "Shanshan Li",
+      "He Zhang"
+    ],
+    "abstract": "With its unique advantages such as decentralization and immutability, blockchain technology has been widely used in various fields in recent years. The smart contract running on the blockchain is also playing an increasingly important role in decentralized application scenarios. Therefore, the automatic detection of security vulnerabilities in smart contracts has become an urgent problem in the application of blockchain technology. Hyperledger Fabric is a smart contract platform based on enterprise-level licensed distributed ledger technology. However, the research on the vulnerability detection technology of Hyperledger Fabric smart contracts is still in its infancy. In this paper, we propose HFContractFuzzer, a method based on Fuzzing technology to detect Hyperledger Fabric smart contracts, which combines a Fuzzing tool for golang named go-fuzz and smart contracts written by golang. We use HFContractFuzzer to detect vulnerabilities in five contracts from typical sources and discover that four of them have security vulnerabilities, proving the effectiveness of the proposed method.",
+    "published_date": "2021-06-21",
+    "arxiv_url": "http://arxiv.org/abs/2106.11210v1",
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Empirical Vulnerability Analysis of Automated Smart Contracts Security   Testing on Blockchains",
+    "authors": [
+      "Reza M. Parizi",
+      "Ali Dehghantanha",
+      "Kim-Kwang Raymond Choo",
+      "Amritraj Singh"
+    ],
+    "abstract": "The emerging blockchain technology supports decentralized computing paradigm shift and is a rapidly approaching phenomenon. While blockchain is thought primarily as the basis of Bitcoin, its application has grown far beyond cryptocurrencies due to the introduction of smart contracts. Smart contracts are self-enforcing pieces of software, which reside and run over a hosting blockchain. Using blockchain-based smart contracts for secure and transparent management to govern interactions (authentication, connection, and transaction) in Internet-enabled environments, mostly IoT, is a niche area of research and practice. However, writing trustworthy and safe smart contracts can be tremendously challenging because of the complicated semantics of underlying domain-specific languages and its testability. There have been high-profile incidents that indicate blockchain smart contracts could contain various code-security vulnerabilities, instigating financial harms. When it involves security of smart contracts, developers embracing the ability to write the contracts should be capable of testing their code, for diagnosing security vulnerabilities, before deploying them to the immutable environments on blockchains. However, there are only a handful of security testing tools for smart contracts. This implies that the existing research on automatic smart contracts security testing is not adequate and remains in a very stage of infancy. With a specific goal to more readily realize the application of blockchain smart contracts in security and privacy, we should first understand their vulnerabilities before widespread implementation. Accordingly, the goal of this paper is to carry out a far-reaching experimental assessment of current static smart contracts security testing tools, for the most widely used blockchain, the Ethereum and its domain-specific programming language, Solidity to provide the first...",
+    "published_date": "2018-09-07",
+    "arxiv_url": "http://arxiv.org/abs/1809.02702v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Automated Vulnerability Injection in Solidity Smart Contracts: A   Mutation-Based Approach for Benchmark Development",
+    "authors": [
+      "Gerardo Iuliano",
+      "Luigi Allocca",
+      "Matteo Cicalese",
+      "Dario Di Nucci"
+    ],
+    "abstract": "The security of smart contracts is critical in blockchain systems, where even minor vulnerabilities can lead to substantial financial losses. Researchers proposed several vulnerability detection tools evaluated using existing benchmarks. However, most benchmarks are outdated and focus on a narrow set of vulnerabilities. This work evaluates whether mutation seeding can effectively inject vulnerabilities into Solidity-based smart contracts and whether state-of-the-art static analysis tools can detect the injected flaws. We aim to automatically inject vulnerabilities into smart contracts to generate large and wide benchmarks. We propose MuSe, a tool to generate vulnerable smart contracts by leveraging pattern-based mutation operators to inject six vulnerability types into real-world smart contracts. We analyzed these vulnerable smart contracts using Slither, a static analysis tool, to determine its capacity to identify them and assess their validity. The results show that each vulnerability has a different injection rate. Not all smart contracts can exhibit some vulnerabilities because they lack the prerequisites for injection. Furthermore, static analysis tools fail to detect all vulnerabilities injected using pattern-based mutations, underscoring the need for enhancements in static analyzers and demonstrating that benchmarks generated by mutation seeding tools can improve the evaluation of detection tools.",
+    "published_date": "2025-04-22",
+    "arxiv_url": "http://arxiv.org/abs/2504.15948v1",
+    "categories": [
+      "cs.SE"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "A Fly in the Ointment: An Empirical Study on the Characteristics of   Ethereum Smart Contracts Code Weaknesses and Vulnerabilities",
+    "authors": [
+      "Majd Soud",
+      "Grischa Liebel",
+      "Mohammad Hamdaqa"
+    ],
+    "abstract": "Context: Smart contracts are computer programs that are automatically executed on the blockchain. Vulnerabilities in their implementation have led to severe loss of cryptocurrency. Smart contracts become immutable when deployed to the Ethereum blockchain. Therefore, it is essential to understand the nature of vulnerabilities in Ethereum smart contracts to prevent them in the future. Existing classifications exist, but are limited in several ways. Objective: We aim to characterize vulnerabilities in Ethereum smart contracts written in Solidity, and unify existing classifications schemes. Method: We extracted 2143 vulnerabilities from public coding platforms and popular vulnerability databases and categorized them using a card sorting approach. We targeted the Ethereum blockchain in this paper, as it is the first and most popular blockchain to support the deployment of smart contracts, and Solidity as the most widely used language to implement smart contracts. We devised a classification scheme of smart contract vulnerabilities according to their error source and impact. Afterwards, we mapped existing classification schemes to our classification. Results: The resulting classification consists of 11 categories describing the error source of a vulnerability and 13 categories describing potential impacts. Our findings show that the language specific coding and the structural data flow categories are the dominant categories, but that the frequency of occurrence differs substantially between the data sources. Conclusions: Our findings enable researchers to better understand smart contract vulnerabilities by defining various dimensions of the problem and supporting our classification with mappings with literature-based classifications and frequency distributions of the defined categories.",
+    "published_date": "2022-03-28",
+    "arxiv_url": "http://arxiv.org/abs/2203.14850v1",
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Exploring Vulnerabilities and Concerns in Solana Smart Contracts",
+    "authors": [
+      "Xiangfan Wu",
+      "Ju Xing",
+      "Xiaoqi Li"
+    ],
+    "abstract": "The Solana blockchain was created by Anatoly Yakovenko of Solana Labs and was introduced in 2017, employing a novel transaction verification method. However, at the same time, the innovation process introduced some new security issues. The frequent security incidents in smart contracts have not only caused enormous economic losses, but also undermined the credit system based on the blockchain. The security and reliability of smart contracts have become a new focus of research both domestically and abroad. This paper studies the current status of security analysis of Solana by researching Solana smart contract security analysis tools. This paper systematically sorts out the vulnerabilities existing in Solana smart contracts and gives examples of some vulnerabilities, summarizes the principles of security analysis tools, and comprehensively summarizes and details the security analysis tools in Solana smart contracts. The data of Solana smart contract security analysis tools are collected and compared with Ethereum, and the differences are analyzed and some tools are selected for practical testing.",
+    "published_date": "2025-04-10",
+    "arxiv_url": "http://arxiv.org/abs/2504.07419v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Implementation and Security Analysis of Cryptocurrencies Based on   Ethereum",
+    "authors": [
+      "Pengfei Gao",
+      "Dechao Kong",
+      "Xiaoqi Li"
+    ],
+    "abstract": "Blockchain technology has set off a wave of decentralization in the world since its birth. The trust system constructed by blockchain technology based on cryptography algorithm and computing power provides a practical and powerful solution to solve the trust problem in human society. In order to make more convenient use of the characteristics of blockchain and build applications on it, smart contracts appear. By defining some trigger automatic execution contracts, the application space of blockchain is expanded and the foundation for the rapid development of blockchain is laid. This is blockchain 2.0. However, the programmability of smart contracts also introduces vulnerabilities. In order to cope with the insufficient security guarantee of high-value application networks running on blockchain 2.0 and smart contracts, this article will be represented by Ethereum to introduce the technical details of understanding blockchain 2.0 and the operation principle of contract virtual machines, and explain how cryptocurrencies based on blockchain 2.0 are constructed and operated. The common security problems and solutions are also discussed. Based on relevant research and on-chain practice, this paper provides a complete and comprehensive perspective to understanding cryptocurrency technology based on blockchain 2.0 and provides a reference for building more secure cryptocurrency contracts.",
+    "published_date": "2025-04-30",
+    "arxiv_url": "http://arxiv.org/abs/2504.21367v2",
+    "categories": [
+      "cs.CE"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Evaluation of ChatGPT's Smart Contract Auditing Capabilities Based on   Chain of Thought",
+    "authors": [
+      "Yuying Du",
+      "Xueyan Tang"
+    ],
+    "abstract": "Smart contracts, as a key component of blockchain technology, play a crucial role in ensuring the automation of transactions and adherence to protocol rules. However, smart contracts are susceptible to security vulnerabilities, which, if exploited, can lead to significant asset losses. This study explores the potential of enhancing smart contract security audits using the GPT-4 model. We utilized a dataset of 35 smart contracts from the SolidiFI-benchmark vulnerability library, containing 732 vulnerabilities, and compared it with five other vulnerability detection tools to evaluate GPT-4's ability to identify seven common types of vulnerabilities. Moreover, we assessed GPT-4's performance in code parsing and vulnerability capture by simulating a professional auditor's auditing process using CoT(Chain of Thought) prompts based on the audit reports of eight groups of smart contracts. We also evaluated GPT-4's ability to write Solidity Proof of Concepts (PoCs). Through experimentation, we found that GPT-4 performed poorly in detecting smart contract vulnerabilities, with a high Precision of 96.6%, but a low Recall of 37.8%, and an F1-score of 41.1%, indicating a tendency to miss vulnerabilities during detection. Meanwhile, it demonstrated good contract code parsing capabilities, with an average comprehensive score of 6.5, capable of identifying the background information and functional relationships of smart contracts; in 60% of the cases, it could write usable PoCs, suggesting GPT-4 has significant potential application in PoC writing. These experimental results indicate that GPT-4 lacks the ability to detect smart contract vulnerabilities effectively, but its performance in contract code parsing and PoC writing demonstrates its significant potential as an auxiliary tool in enhancing the efficiency and effectiveness of smart contract security audits.",
+    "published_date": "2024-02-19",
+    "arxiv_url": "http://arxiv.org/abs/2402.12023v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "68",
+      "I.2; J.6"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "OpenSCV: An Open Hierarchical Taxonomy for Smart Contract   Vulnerabilities",
+    "authors": [
+      "Fernando Richter Vidal",
+      "Naghmeh Ivaki",
+      "Nuno Laranjeiro"
+    ],
+    "abstract": "Smart contracts are nowadays at the core of most blockchain systems, as they specify and allow an agreement between entities that wish to perform a transaction. As any computer program, smart contracts are subject to the presence of residual faults, including severe security vulnerabilities, which require that the vulnerable contract is terminated in the blockchain. In this context, research began to be developed to prevent the deployment of smart contract holding vulnerabilities, mostly in the form of vulnerability detection tools. Along with these efforts, several and heterogeneous vulnerability classification schemes arised (e.g., most notably DASP and SWC). At the time of writing, these are mostly outdated initiatives, despite the fact that smart contract vulnerabilities are continuously being discovered and the associated rich information being mostly disregarded. In this paper, we propose OpenSCV, a new and Open hierarchical taxonomy for Smart Contract Vulnerabilities, which is open to community contributions and matches the current state of the practice, while being prepared to handle future modifications and evolution. The taxonomy was built based on the analysis of research on vulnerability classification, community-maintained classification schemes, and research on smart contract vulnerability detection. We show how OpenSCV covers the announced detection ability of current vulnerability detection tools, and highlight its usefulness as a resource in smart contract vulnerability research.",
+    "published_date": "2023-03-25",
+    "arxiv_url": "http://arxiv.org/abs/2303.14523v2",
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "MultiCFV: Detecting Control Flow Vulnerabilities in Smart Contracts   Leveraging Multimodal Deep Learning",
+    "authors": [
+      "Hongli Peng",
+      "Xiaoqi Li",
+      "Wenkai Li"
+    ],
+    "abstract": "The introduction of smart contract functionality marks the advent of the blockchain 2.0 era, enabling blockchain technology to support digital currency transactions and complex distributed applications. However, many smart contracts have been found to contain vulnerabilities and errors, leading to the loss of assets within the blockchain. Despite a range of tools that have been developed to identify vulnerabilities in smart contracts at the source code or bytecode level, most rely on a single modality, reducing performance, accuracy, and limited generalization capabilities. This paper proposes a multimodal deep learning approach, MultiCFV, which is designed specifically to analyze and detect erroneous control flow vulnerability, as well as identify code clones in smart contracts. Bytecode is generated from source code to construct control flow graphs, with graph embedding techniques extracting graph features. Abstract syntax trees are used to obtain syntax features, while code comments capture key commentary words and comment features. These three feature vectors are fused to create a database for code inspection, which is used to detect similar code and identify contract vulnerabilities. Experimental results demonstrate our method effectively combines structural, syntactic, and semantic information, improving the accuracy of smart contract vulnerability detection and clone detection.",
+    "published_date": "2025-08-02",
+    "arxiv_url": "http://arxiv.org/abs/2508.01346v1",
+    "categories": [
+      "cs.CR"
+    ]
+  }
+]

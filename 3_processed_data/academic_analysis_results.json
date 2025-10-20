@@ -1,0 +1,150 @@
+{
+  "vulnerability_mentions": {
+    "reentrancy": 1,
+    "authentication": 1
+  },
+  "defense_recommendations": {
+    "fuzzing": 2,
+    "testing": 2,
+    "static analysis": 1,
+    "audit": 1
+  },
+  "topics": [
+    {
+      "topic_id": 1,
+      "keywords": [
+        "contracts",
+        "smart",
+        "blockchain",
+        "security",
+        "vulnerabilities",
+        "based",
+        "technology",
+        "ethereum",
+        "analysis",
+        "framework"
+      ],
+      "weights": [
+        45.02463044734578,
+        43.316024899263965,
+        28.388980177011767,
+        27.797520589308753,
+        19.171418688766224,
+        10.106901910219385,
+        10.1047701207905,
+        9.25537939266018,
+        8.809344037976771,
+        8.195391239021259
+      ]
+    },
+    {
+      "topic_id": 2,
+      "keywords": [
+        "smart",
+        "contracts",
+        "vulnerabilities",
+        "vulnerability",
+        "using",
+        "tools",
+        "blockchain",
+        "classification",
+        "existing",
+        "based"
+      ],
+      "weights": [
+        18.501421620823866,
+        15.917642415275747,
+        14.284238693480098,
+        6.925517709047028,
+        6.192476387856695,
+        5.726946215742957,
+        5.5388093539203105,
+        5.199749948798419,
+        5.00078197198714,
+        4.424355325316128
+      ]
+    },
+    {
+      "topic_id": 3,
+      "keywords": [
+        "smart",
+        "contract",
+        "contracts",
+        "detection",
+        "blockchain",
+        "vulnerability",
+        "code",
+        "vulnerabilities",
+        "technology",
+        "security"
+      ],
+      "weights": [
+        21.264262936224995,
+        15.492548471777653,
+        12.548270238685676,
+        12.083568872904587,
+        11.562216253753254,
+        11.278583842507492,
+        11.13589172725926,
+        10.813966589219788,
+        5.293104030471403,
+        4.246826839470909
+      ]
+    },
+    {
+      "topic_id": 4,
+      "keywords": [
+        "smart",
+        "contract",
+        "vulnerability",
+        "detection",
+        "research",
+        "vulnerabilities",
+        "classification",
+        "contracts",
+        "blockchain",
+        "tools"
+      ],
+      "weights": [
+        7.718136317768888,
+        6.839318729090725,
+        6.585012968219473,
+        6.198452943153038,
+        4.54174368117101,
+        4.522546956207621,
+        3.200247514215729,
+        2.311311877132584,
+        2.305221769493897,
+        2.2012433794897874
+      ]
+    },
+    {
+      "topic_id": 5,
+      "keywords": [
+        "vulnerabilities",
+        "blockchain",
+        "smart",
+        "propose",
+        "developers",
+        "blockchains",
+        "contract",
+        "research",
+        "future",
+        "lack"
+      ],
+      "weights": [
+        8.20782907232604,
+        5.20477244582054,
+        3.200154225918051,
+        2.203307554911226,
+        2.2015885746975172,
+        2.2015885746975172,
+        2.2007442413032337,
+        2.200740673699712,
+        2.200618302423928,
+        2.2004956987487283
+      ]
+    }
+  ],
+  "total_papers": 15
+}

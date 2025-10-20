@@ -1,0 +1,20 @@
+{
+  "red_flags": [
+    "guaranteed returns",
+    "risk-free",
+    "double your money",
+    "limited time",
+    "act now",
+    "exclusive opportunity",
+    "celebrity endorsed",
+    "get rich quick",
+    "passive income guaranteed"
+  ],
+  "suspicious_patterns": [
+    "no whitepaper",
+    "anonymous team",
+    "no audit",
+    "locked liquidity claims without proof",
+    "unrealistic APY"
+  ]
+}

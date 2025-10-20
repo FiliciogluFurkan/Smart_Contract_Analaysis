@@ -1,0 +1,26 @@
+{
+  "papers_analyzed": 15,
+  "vulnerability_focus": {
+    "reentrancy": 1,
+    "access_control": 1
+  },
+  "defense_mechanisms": {
+    "reentrancy_guard": 15,
+    "tools": 5,
+    "testing": 4,
+    "fuzzing": 2,
+    "static_analysis": 1,
+    "formal_verification": 1,
+    "audit": 1,
+    "access_modifier": 1
+  },
+  "research_themes": {
+    "vulnerability_detection": 11,
+    "automated_tools": 14,
+    "deep_learning": 15,
+    "ethereum": 15,
+    "security": 12,
+    "empirical_study": 10
+  },
+  "date_range": "2018-2025"
+}

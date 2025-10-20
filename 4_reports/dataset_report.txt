@@ -1,0 +1,24 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║          SMART CONTRACT SECURITY DATASET RAPORU              ║
+╚══════════════════════════════════════════════════════════════╝
+
+📊 GENEL İSTATİSTİKLER
+────────────────────────────────────────────────────────────
+Toplam Kontrat Sayısı: 16
+
+📁 KATEGORİ DAĞILIMI
+────────────────────────────────────────────────────────────
+LEGIT           :  10 ( 62.5%)
+SCAM            :   3 ( 18.8%)
+VULNERABLE      :   3 ( 18.8%)
+
+────────────────────────────────────────────────────────────
+
+✅ SONRAKİ ADIMLAR:
+  1. ✓ Veri toplama tamamlandı
+  2. → GitHub proje açıklamaları topla
+  3. → Vulnerability analizi yap
+  4. → NLP modelleme
+  5. → Sonuçları raporla
+

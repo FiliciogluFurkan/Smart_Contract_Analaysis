@@ -1,0 +1,48 @@
+[
+  {
+    "address": "0x87230146E138d3F296a9a77e497A2A83012e9Bc5",
+    "name": "SQUID Token",
+    "category": "scam",
+    "scam_type": "honeypot",
+    "description": "Squid Game token - users could buy but not sell (honeypot mechanism)",
+    "known_vulnerabilities": [
+      "honeypot",
+      "sell_restriction",
+      "hidden_mint"
+    ],
+    "date_identified": "2021-11",
+    "estimated_loss": "$3.38M",
+    "verified": false,
+    "source_notes": "Rug pull scam - developers removed liquidity"
+  },
+  {
+    "address": "0x5a3e6A77ba2f983eC0d371ea3B475F8Bc0811AD5",
+    "name": "AnubisDAO",
+    "category": "scam",
+    "scam_type": "rug_pull",
+    "description": "DeFi project that disappeared with investor funds within 24 hours",
+    "known_vulnerabilities": [
+      "rug_pull",
+      "liquidity_drain"
+    ],
+    "date_identified": "2021-10",
+    "estimated_loss": "$58M",
+    "verified": false,
+    "source_notes": "Developer wallet drained all funds"
+  },
+  {
+    "address": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+    "name": "SaveTheKids Token",
+    "category": "scam",
+    "scam_type": "pump_and_dump",
+    "description": "Celebrity-endorsed pump and dump scheme",
+    "known_vulnerabilities": [
+      "pump_and_dump",
+      "insider_selling"
+    ],
+    "date_identified": "2021-06",
+    "estimated_loss": "$1M+",
+    "verified": false,
+    "source_notes": "Influencers promoted then sold immediately"
+  }
+]

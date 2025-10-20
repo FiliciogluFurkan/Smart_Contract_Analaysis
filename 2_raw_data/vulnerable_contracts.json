@@ -1,0 +1,51 @@
+[
+  {
+    "address": "0xbb9bc244d798123fde783fcc1c72d3bb8c189413",
+    "name": "TheDAO",
+    "category": "vulnerable",
+    "vulnerability_type": "reentrancy",
+    "description": "First major reentrancy attack on Ethereum",
+    "known_vulnerabilities": [
+      "reentrancy",
+      "recursive_call"
+    ],
+    "date_identified": "2016-06",
+    "estimated_loss": "$60M (at the time)",
+    "verified": true,
+    "source_notes": "Led to Ethereum hard fork (ETH/ETC split)",
+    "vulnerability_pattern": "call.value()() before state update"
+  },
+  {
+    "address": "0x863df6bfa4469f3ead0be8f9f2aae51c91a907b4",
+    "name": "Parity MultiSig Wallet",
+    "category": "vulnerable",
+    "vulnerability_type": "delegatecall",
+    "description": "Library self-destruct vulnerability",
+    "known_vulnerabilities": [
+      "delegatecall",
+      "selfdestruct",
+      "unprotected_function"
+    ],
+    "date_identified": "2017-11",
+    "estimated_loss": "$280M frozen",
+    "verified": true,
+    "source_notes": "User accidentally killed library contract",
+    "vulnerability_pattern": "public delegatecall to library"
+  },
+  {
+    "address": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+    "name": "BNB Bridge Exploit",
+    "category": "vulnerable",
+    "vulnerability_type": "verification_bypass",
+    "description": "Cross-chain bridge verification exploit",
+    "known_vulnerabilities": [
+      "signature_verification",
+      "bridge_exploit"
+    ],
+    "date_identified": "2022-10",
+    "estimated_loss": "$570M",
+    "verified": true,
+    "source_notes": "Forged proof to mint BNB tokens",
+    "vulnerability_pattern": "weak signature verification"
+  }
+]
