@@ -89,25 +89,6 @@ Bu döküman, projedeki her dosyanın ne işe yaradığını açıklar.
 
 **Ne zaman çalıştırılır:** Paper'lar toplandıktan sonra
 
----
-
-### enhanced_academic_analyzer.py (YENİ)
-**Ne yapar:** Semantic keyword matching ile daha detaylı academic analiz
-**Girdiler:** 
-- academic_papers.json
-- vulnerability_analysis_results.csv
-**Çıktılar:**
-- enhanced_academic_results.json
-- enhanced_academic_report.txt
-
-**Özellikleri:**
-- Semantic variations (reentrancy, reentrant, re-entry)
-- Theory vs Practice comparison
-- Gap analysis
-
-**Ne zaman çalıştırılır:** Final analiz için
-
----
 
 ## 📁 2_raw_data/ - Ham Veri Dosyaları
 

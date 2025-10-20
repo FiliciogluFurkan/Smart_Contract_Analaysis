@@ -778,7 +778,7 @@ library TransferHelper {
         (bool success,) = to.call{value:value}(new bytes(0));
         require(success, 'TransferHelper: ETH_TRANSFER_FAILED');
     }
-}",v0.6.6+commit.6c089d02,1,GNU GPLv3,legit,2025-10-18T11:17:46.217229
+}",v0.6.6+commit.6c089d02,1,GNU GPLv3,legit,2025-10-20T21:35:19.982849
 0xdAC17F958D2ee523a2206206994597C13D831ec7,TetherToken,"pragma solidity ^0.4.17;
 
 /**
@@ -1225,7 +1225,7 @@ contract TetherToken is Pausable, StandardToken, BlackList {
 
     // Called if contract ever adds fees
     event Params(uint feeBasisPoints, uint maxFee);
-}",v0.4.18+commit.9cf6e910,0,,legit,2025-10-18T11:17:47.067075
+}",v0.4.18+commit.9cf6e910,0,,legit,2025-10-20T21:35:20.825481
 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48,FiatTokenProxy,"pragma solidity ^0.4.24;
 
 // File: zos-lib/contracts/upgradeability/Proxy.sol
@@ -1554,7 +1554,7 @@ pragma solidity ^0.4.24;
 contract FiatTokenProxy is AdminUpgradeabilityProxy {
     constructor(address _implementation) public AdminUpgradeabilityProxy(_implementation) {
     }
-}",v0.4.24+commit.e67f0147,0,,legit,2025-10-18T11:17:47.910760
+}",v0.4.24+commit.e67f0147,0,,legit,2025-10-20T21:35:21.686932
 0x514910771AF9Ca656af840dff83E8264EcF986CA,LinkToken,"pragma solidity ^0.4.16;
 
 
@@ -1849,7 +1849,7 @@ contract LinkToken is StandardToken, ERC677Token {
     _;
   }
 
-}",v0.4.16+commit.d7661dd9,1,,legit,2025-10-18T11:17:48.729931
+}",v0.4.16+commit.d7661dd9,1,,legit,2025-10-20T21:35:22.505855
 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2,WETH9,"// Copyright (C) 2015, 2016, 2017 Dapphub
 
 // This program is free software: you can redistribute it and/or modify
@@ -2605,7 +2605,7 @@ the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
-*/",v0.4.19+commit.c4cbbb05,0,,legit,2025-10-18T11:17:49.702685
+*/",v0.4.19+commit.c4cbbb05,0,,legit,2025-10-20T21:35:23.496008
 0x6B175474E89094C44Da98b954EedeAC495271d0F,Dai,"// hevm: flattened sources of /nix/store/8xb41r4qd0cjb63wcrxf1qmfg88p0961-dss-6fd7de0/src/dai.sol
 pragma solidity =0.5.12;
 
@@ -2795,7 +2795,7 @@ contract Dai is LibNote {
         allowance[holder][spender] = wad;
         emit Approval(holder, spender, wad);
     }
-}",v0.5.12+commit.7709ece9,0,GNU GPLv3,legit,2025-10-18T11:17:50.512085
+}",v0.5.12+commit.7709ece9,0,GNU GPLv3,legit,2025-10-20T21:35:24.306342
 0xE592427A0AEce92De3Edee1F18E0157C05861564,SwapRouter,"{{
   ""language"": ""Solidity"",
   ""sources"": {
@@ -2921,7 +2921,7 @@ contract Dai is LibNote {
     },
     ""libraries"": {}
   }
-}}",v0.7.6+commit.7338295f,1,,legit,2025-10-18T11:17:51.555270
+}}",v0.7.6+commit.7338295f,1,,legit,2025-10-20T21:35:25.338805
 0x39AA39c021dfbaE8faC545936693aC917d5E7563,CErc20,"
 // File: contracts/ComptrollerInterface.sol
 
@@ -5509,7 +5509,7 @@ contract CErc20 is CToken {
         return Error.NO_ERROR;
     }
 }
-",v0.5.8+commit.23d335f2,1,,legit,2025-10-18T11:17:52.609713
+",v0.5.8+commit.23d335f2,1,,legit,2025-10-20T21:35:26.413686
 0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9,InitializableImmutableAdminUpgradeabilityProxy,"{{
   ""language"": ""Solidity"",
   ""sources"": {
@@ -5549,7 +5549,7 @@ contract CErc20 is CToken {
     },
     ""libraries"": {}
   }
-}}",v0.6.12+commit.27d51765,1,,legit,2025-10-18T11:17:53.423258
+}}",v0.6.12+commit.27d51765,1,,legit,2025-10-20T21:35:27.235174
 0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2,DSToken,"// MKR Token
 
 // hevm: flattened sources of src/mkr-499.sol
@@ -6023,4 +6023,4 @@ contract DSToken is DSTokenBase(0), DSStop {
     function setName(bytes32 name_) public auth {
         name = name_;
     }
-}",v0.4.18+commit.9cf6e910,1,,legit,2025-10-18T11:17:54.246304
+}",v0.4.18+commit.9cf6e910,1,,legit,2025-10-20T21:35:28.079387

@@ -130,7 +130,7 @@ class ArxivPaperCollector:
         
         return sorted_keywords
     
-    def save_papers(self, filename='academic_papers.json'):
+    def save_papers(self, filename='../2_raw_data/academic_papers.json'):
         """Paper'ları kaydet"""
         
         with open(filename, 'w', encoding='utf-8') as f:
@@ -178,7 +178,7 @@ Date Range: {min(p['published_date'] for p in self.papers)} to {max(p['published
         
         print(report)
         
-        with open('academic_papers_report.txt', 'w', encoding='utf-8') as f:
+        with open('../4_reports/academic_papers_report.txt', 'w', encoding='utf-8') as f:
             f.write(report)
         
         print("📄 Report saved: academic_papers_report.txt")

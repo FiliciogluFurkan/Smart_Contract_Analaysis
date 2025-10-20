@@ -7,7 +7,7 @@
     "optimization": "1",
     "license": "GNU GPLv3",
     "category": "legit",
-    "collection_date": "2025-10-18T11:17:46.217229"
+    "collection_date": "2025-10-20T21:35:19.982849"
   },
   {
     "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
@@ -17,7 +17,7 @@
     "optimization": "0",
     "license": "",
     "category": "legit",
-    "collection_date": "2025-10-18T11:17:47.067075"
+    "collection_date": "2025-10-20T21:35:20.825481"
   },
   {
     "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -27,7 +27,7 @@
     "optimization": "0",
     "license": "",
     "category": "legit",
-    "collection_date": "2025-10-18T11:17:47.910760"
+    "collection_date": "2025-10-20T21:35:21.686932"
   },
   {
     "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
@@ -37,7 +37,7 @@
     "optimization": "1",
     "license": "",
     "category": "legit",
-    "collection_date": "2025-10-18T11:17:48.729931"
+    "collection_date": "2025-10-20T21:35:22.505855"
   },
   {
     "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
@@ -47,7 +47,7 @@
     "optimization": "0",
     "license": "",
     "category": "legit",
-    "collection_date": "2025-10-18T11:17:49.702685"
+    "collection_date": "2025-10-20T21:35:23.496008"
   },
   {
     "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
@@ -57,7 +57,7 @@
     "optimization": "0",
     "license": "GNU GPLv3",
     "category": "legit",
-    "collection_date": "2025-10-18T11:17:50.512085"
+    "collection_date": "2025-10-20T21:35:24.306342"
   },
   {
     "address": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
@@ -67,7 +67,7 @@
     "optimization": "1",
     "license": "",
     "category": "legit",
-    "collection_date": "2025-10-18T11:17:51.555270"
+    "collection_date": "2025-10-20T21:35:25.338805"
   },
   {
     "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
@@ -77,7 +77,7 @@
     "optimization": "1",
     "license": "",
     "category": "legit",
-    "collection_date": "2025-10-18T11:17:52.609713"
+    "collection_date": "2025-10-20T21:35:26.413686"
   },
   {
     "address": "0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9",
@@ -87,7 +87,7 @@
     "optimization": "1",
     "license": "",
     "category": "legit",
-    "collection_date": "2025-10-18T11:17:53.423258"
+    "collection_date": "2025-10-20T21:35:27.235174"
   },
   {
     "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
@@ -97,6 +97,6 @@
     "optimization": "1",
     "license": "",
     "category": "legit",
-    "collection_date": "2025-10-18T11:17:54.246304"
+    "collection_date": "2025-10-20T21:35:28.079387"
   }
 ]

@@ -17,7 +17,7 @@ class ContractCollector:
         Ücretsiz key: https://etherscan.io/myapikey
         """
         self.api_key = api_key
-        self.base_url = "https://api.etherscan.io/v2/api"  # V2 API kullan
+        self.base_url = "https://api.etherscan.io/v2/api"
         self.contracts_data = []
         
     def get_contract_source(self, contract_address):
@@ -141,7 +141,7 @@ class ContractCollector:
             else:
                 print(f"⚠️ {name} - Source code verified değil (scam olduğu için normal)")
     
-    def save_data(self, filename='contracts_data.json'):
+    def save_data(self, filename='../2_raw_data/contracts_data.json'):
         """Toplanan veriyi kaydet"""
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(self.contracts_data, f, indent=2, ensure_ascii=False)
@@ -189,7 +189,7 @@ def main():
     # collector.collect_verified_contracts(num_contracts=10)
     
     # 5. Verileri kaydet
-    collector.save_data('smart_contracts_dataset.json')
+    collector.save_data('../2_raw_data/smart_contracts_dataset.json')
     
     # 6. İstatistikleri göster
     collector.get_statistics()
